@@ -1,0 +1,65 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Player Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/destinyStyles.css">
+        <link rel="stylesheet" type="text/css" href="css/items.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/destinyIcon.png">
+    </head>
+
+    <body>
+        <header class="row">
+            <h1 class="col-sm-12">Destiny 2 Info Gatherer</h1>
+        </header>
+        <!-- OOOOOOOOOOOOOOOOOOOOO -->
+        <nav class="row">
+            <a href="index.html" class="col-sm-4">Home Page</a>
+            <a href="items.html" class="col-sm-4">Item Search</a>
+            <a href="players.html" class="col-sm-4" style="text-decoration: underline; font-weight: bold;">Player Search</a>
+        </nav>
+        <!-- OOOOOOOOOOOOOOOOOOOOO -->
+        <article class="row">
+            <div class="col-sm-1"></div>
+            <div id="container" class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-8" id="content1">
+                        <h2>Search for a player or clan</h2>
+                        <p>Here you can search for certain players or clans! Type whoever you are looking for down below:</p>
+                        <form>
+                            <label name="SocialName">Player Name:</label>
+                            <input type="text" id="socialName" name="SocialName">
+                        </form>
+                        <div id="statBox">
+                            <!--Example output values-->
+                            <a style="color: rgba(255, 255, 255, 0.479);">This would be an example of what should (hopefully appear) if the user typed in "CoolPlayer123"</a>
+                            <div id="playerName">Player Name: <a id="playerNameInput">CoolPlayer123</a></div>
+                            <div id="topClass">Highest Class: <a id="topClassInput">Hunter</a> </div>
+                            <div id="lightLevel">Current Light Level: <a id="lightLevelInput" style="color: rgb(85, 212, 255)">1004</a><img id="lightIcon" src="images/lightLevel.png"></div>
+                            <div id="crucible">Crucible Rank: <a id="crucibleInput" style="color: rgb(255, 78, 78)">1570(Mythic)</a> </div>
+                            <div id="playerClan">Clan: <a id="playerClanInput">PrettyAwesomeClan(PAC)</a> </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-sm-4" id="content2">
+                        <img src="images/D2ClanLogo.png">
+                        <img src="images/D2RandomPlayer.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+
+        </article>
+        <!-- OOOOOOOOOOOOOOOOOOOOO -->
+        <footer>
+            <img src="images/D2Title.png">
+            <p>All rights reserved to Bungie and all associated companies. The information gathered from this website comes from the <a href="https://bungie-net.github.io/multi/index.html">Bungie.net API</a>.</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

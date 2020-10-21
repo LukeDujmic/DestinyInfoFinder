@@ -1,0 +1,40 @@
+form
+{
+    padding: 1.5em;
+}
+label
+{
+    display: block;
+    font-size: 3em;
+}
+input
+{
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: solid 6px rgb(41, 72, 131);
+    background-color: rgba(0, 2, 139, 0.2);
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    transition: 0.2s;
+}
+input:focus
+{
+    transform: translateY(-5px);
+    box-shadow: white 0px 5px 10px;
+    transition: 0.2s;
+}
+/* stat inputs */
+#statBox
+{
+    padding: 1em;
+    margin: 0.3em;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 1em;
+}
+#statBox > div
+{
+    margin: 1em 0 1em 0;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 0.5em;
+}
